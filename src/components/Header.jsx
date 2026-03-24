@@ -21,11 +21,7 @@ export default function Header({ active, onChange }) {
       <header className="header">
         <div className="header-logo">
           <div className="header-logo-mark">
-            <svg viewBox="0 0 24 24"><path d="M3 21V9l9-6 9 6v12h-6v-6H9v6z"/></svg>
-          </div>
-          <div className="header-logo-text">
-            <span className="header-logo-name">Alliad</span>
-            <span className="header-logo-sub">ESG BD Toolkit</span>
+            <img src="/assets/images/alliad_logo.jpg" alt="Alliad logo" />
           </div>
         </div>
         <div className="header-right">

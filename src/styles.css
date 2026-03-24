@@ -110,9 +110,7 @@ p { line-height: 1.65; }
 }
 .header-logo { display: flex; align-items: center; gap: 10px; }
 .header-logo-mark {
-  width: 34px; height: 34px;
   background: var(--green);
-  border-radius: var(--r-sm);
   display: grid; place-items: center;
 }
 .header-logo-mark svg { width: 18px; height: 18px; fill: white; }
