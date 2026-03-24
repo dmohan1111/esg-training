@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import SettingsModal from './SettingsModal.jsx'
+import logo from '../assets/alliad_logo.jpg'
 
 const MODULES = [
   { id: 'why',        label: '01 · Why ESG Matters' },
@@ -21,7 +22,7 @@ export default function Header({ active, onChange }) {
       <header className="header">
         <div className="header-logo">
           <div className="header-logo-mark">
-            <img src="/alliad_logo.jpg" alt="Alliad logo" />
+            <img src={logo} alt="Alliad logo" />
           </div>
         </div>
         <div className="header-right">
