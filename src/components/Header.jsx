@@ -24,6 +24,10 @@ export default function Header({ active, onChange }) {
           <div className="header-logo-mark">
             <img src={logo} alt="Alliad logo" />
           </div>
+          <div className="header-logo-text">
+            <span className="header-logo-name">Alliad</span>
+            <span className="header-logo-sub">ESG BD Toolkit</span>
+          </div>
         </div>
         <div className="header-right">
           <span className="header-badge">BD Internal</span>

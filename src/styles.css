@@ -110,6 +110,7 @@ p { line-height: 1.65; }
 }
 .header-logo { display: flex; align-items: center; gap: 10px; }
 .header-logo-mark {
+  width: 56px; height: 56px;
   background: var(--green);
   display: grid; place-items: center;
 }
