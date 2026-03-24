@@ -21,7 +21,7 @@ export default function Header({ active, onChange }) {
       <header className="header">
         <div className="header-logo">
           <div className="header-logo-mark">
-            <img src="/assets/images/alliad_logo.jpg" alt="Alliad logo" />
+            <img src="/alliad_logo.jpg" alt="Alliad logo" />
           </div>
         </div>
         <div className="header-right">
